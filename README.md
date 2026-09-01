@@ -1,95 +1,37 @@
-# python-basics-25bcon2358
-Basic python program
-# Factorial Calculator
+# Factorial Program
 
-A simple Python program that calculates the **factorial of a number** using an iterative approach.
+A simple beginner Python program that calculates
+the factorial of the fixed value 5 using a loop.
 
-## 📌 Project Description
+## Program
 
-This project demonstrates how to calculate the factorial of a given number using a `for` loop in Python.
+The repository contains:
 
-The factorial of a non-negative integer `n` is the product of all positive integers from `1` to `n`.
+- `factorial.py` — calculates the factorial of 5.
 
-For example:
+## How It Works
 
-```text
-5! = 5 × 4 × 3 × 2 × 1 = 120
-```
+The variable `fact` starts at 1.
 
-## ✨ Features
+A `for` loop runs from 1 through 5 and repeatedly
+multiplies the current value of `fact`.
 
-* Calculates the factorial of a number.
-* Uses a simple `for` loop.
-* Beginner-friendly Python implementation.
-* Displays the calculated factorial during execution.
+## Requirements
 
-## 🛠️ Installation
+- Python 3.x
 
-1. Clone the repository:
+No external libraries are required.
 
-```bash
-git clone https://github.com/your-username/factorial-python.git
-```
+## Usage
 
-2. Navigate to the project directory:
+Run:
 
-```bash
-cd factorial-python
-```
-
-3. Make sure Python is installed on your system.
-
-## 📋 Requirements
-
-* **Python 3.x**
-* No external libraries or dependencies are required.
-
-## ▶️ Usage
-
-Run the program using:
-
-```bash
 python factorial.py
-```
 
-The number can be changed directly in the program:
+## Output
 
-```python
-n = 5
-```
+120
 
-The program then calculates the factorial using a loop.
+## Example Calculation
 
-## 💡 Example
-
-For:
-
-```python
-n = 5
-```
-
-The program produces:
-
-```text
-Factorial of 5 = 1
-Factorial of 5 = 2
-Factorial of 5 = 6
-Factorial of 5 = 24
-Factorial of 5 = 120
-```
-
-The final factorial is:
-
-```text
-5! = 120
-```
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-You are free to use, modify, and distribute this project, subject to the terms of the license.
-
----
-
-⭐ If you find this project useful, consider giving the repository a star!
+5 × 4 × 3 × 2 × 1 = 120
